@@ -34,6 +34,7 @@
 
         
         div.innerHTML= '<strong>UserID: ' + data[i].userId + '</strong> <strong>id: ' + data[i].id + '</strong> <br> <strong>title: </strong>' + data[i].title + '<br> <strong>body:</strong> '+ data[i].body + '<br><br>';
+        
         answer.appendChild(div);
         
       }
